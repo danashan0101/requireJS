@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>RequireJS configuration options</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <script>
+        var require = {
+            baseUrl: 'js/',
+            urlArgs: 'r=' + Date.now(),
+
+            deps: ['entryPoint'],
+            callback: function () {},
+
+            skipDataMain: false,
+            waitSeconds: 10
+        };
+    </script>
+    <script src="libs/require.js"></script>
+</body>
+</html>

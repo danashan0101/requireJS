@@ -1,0 +1,11 @@
+.users {
+    overflow: hidden;
+    padding: 0 0 10px 20px;
+}
+.user {
+    background: lightgray;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 5px 10px;
+}

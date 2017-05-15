@@ -1,0 +1,23 @@
+html, body { margin: 0; padding: 0; }
+
+.examples {
+    padding: 20px;
+}
+    .examples label {
+        margin-right: 10px;
+    }
+
+.examples .item {
+    background: #f5f5f5;
+    border: 1px solid #dcdcdc;
+    display: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+    .examples .item h2 {
+        text-transform: capitalize;
+    }
+    .examples .item h2,
+    .examples .item pre {
+        margin: 0 0 10px;
+    }
